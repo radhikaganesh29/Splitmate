@@ -1,0 +1,94 @@
+/* master.css */
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    margin: 0;
+}
+
+.container {
+    border: 2px solid #333; /* Border style */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    background-color: #fff; /* Background color inside the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for a subtle effect */
+    max-width: 800px; /* Maximum width of the container */
+    width: 100%; /* Ensure the container takes full width */
+    overflow: hidden; /* Prevent content from overflowing outside the box */
+}
+
+.background {
+    background-image: url(../images/bkg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px; /* Padding inside the background container */
+    height: 100%; /* Ensure background takes full height */
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem; /* Larger font size for emphasis */
+    color: #333; /* Dark color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle text shadow for depth */
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0.8rem auto; /* Center align the table within the container */
+    width: 100%; /* Full width of the container */
+}
+
+td, th {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.double-underlined {
+    border-bottom: 4px double black;
+}
+
+.green-flag {
+    color: green;
+    font-weight: bold;
+}
+
+.red-flag {
+    color: red;
+    font-weight: bold;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.shaded {
+    background-color: rgba(195, 123, 210, 0.15);
+}
+
+.underlined {
+    border-bottom: 1px solid black;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    table {
+        font-size: 0.9rem;
+    }
+}
